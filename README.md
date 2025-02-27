@@ -71,6 +71,8 @@ Open **`http://127.0.0.1:5000/`** in your browser.
 ![image](https://github.com/user-attachments/assets/68294dd5-2678-4e3a-abbf-064228435f65)
 
 
+![image](https://github.com/user-attachments/assets/4fcfde67-20db-4a1a-969d-2338b75f4a2d)
+
 ---
 
 ## **📝 To-Do List (Future Enhancements)**  
