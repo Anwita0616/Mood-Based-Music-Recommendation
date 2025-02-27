@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood-Based Music Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🎭🎶 Mood-Based Music Recommendation 🎭🎶</h1>
+
+        <div class="video-container">
+            <video id="video" width="400" height="300" autoplay></video>
+            <canvas id="canvas" width="400" height="300" style="display:none;"></canvas>
+            <img id="mood-image" src="" alt="" style="display: none;"> 
+        </div>
+
+        <button id="capture">🎭 Capture Mood</button>
+
+        <h2>Mood: <span id="mood-result">None</span></h2>
+
+        <h3>Recommended Songs:</h3>
+        <ul id="songs-list"></ul>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</body>
+</html>
+
+
