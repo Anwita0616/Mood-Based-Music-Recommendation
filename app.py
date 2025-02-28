@@ -25,7 +25,7 @@ def get_extended_mood(emotion):
         return random.choice(extended_moods["neutral"])
 
 # YouTube API Key to get songs from youtube
-YOUTUBE_API_KEY = "AIzaSyCBRZWGYbwT741Ty_CGPIJOs2-K0SkUAd8"
+YOUTUBE_API_KEY = "Your Youtube API Key"
 
 def get_song_recommendation(mood):
     youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
